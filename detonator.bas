@@ -22,11 +22,11 @@
 118 print"      {rvson}       {rvsoff}        {rvson}       {rvsoff}        {rvson}    {rvsoff}";
 120 print"     {rvson}{SHIFT-POUND}       {CBM-*}{rvsoff}      {rvon}{SHIFT-POUND}       {CBM-*}{rvsoff}      {rvon}{SHIFT-POUND}    {rvsoff}";
 122 print"     {rvson} {rvsoff}   {red}+{brown}   {rvson} {rvsoff}      {rvson} {rvsoff}   {red}+{brown}   {rvson} {rvsoff}      {rvson} {rvsoff}   {red}+{brown}";
-124 print"     {rvson}         {rvof}      {rvon}         {rvof}      {rvon}     {rvof}";
-126 print"    {rvson}{SHIFT-POUND}         {CBM-*}{rvof}    {rvon}{SHIFT-POUND}         {CBM-*}{rvsoff}    {rvon}{SHIFT-POUND}     {rvof}";
-128 print"    {rvson} {rvsof}    {red}+{brn}    {rvson} {rvsoff}    {rvson} {rvsoff}    {red}+{brown}    {rvon} {rvof}    {rvon} {rvof}    {red}+{brn}";
-130 print"    {rvson}           {rvof}    {rvon}           {rvof}    {rvson}      {rvof}";
-132 print"{rvson}{CBM-*}{rvsoff}  {rvson}{SHIFT-POUND} {rvsoff}    {red}+{brown}    {rvon} {CBM-*}{rvof}  {rvon}{SHIFT-POUND} {rvof}    {red}+{brn}    {rvon} {CBM-*}{rvof}  {rvon}{SHIFT-POUND} {rvof}    {red}+{brn}";
+124 print"     {rvson}         {rvof}      {rvon}         {rvsoff}      {rvson}     {rvsoff}";
+126 print"    {rvson}{SHIFT-POUND}         {CBM-*}{rvof}    {rvon}{SHIFT-POUND}         {CBM-*}{rvsoff}    {rvson}{SHIFT-POUND}     {rvsoff}";
+128 print"    {rvson} {rvsoff}    {red}+{brown}    {rvson} {rvsoff}    {rvson} {rvsoff}    {red}+{brown}    {rvson} {rvsoff}    {rvson} {rvsoff}    {red}+{brown}";
+130 print"    {rvson}           {rvsoff}    {rvson}           {rvsoff}    {rvson}      {rvsoff}";
+132 print"{rvson}{CBM-*}{rvsoff}  {rvson}{SHIFT-POUND} {rvsoff}    {red}+{brown}    {rvon} {CBM-*}{rvof}  {rvon}{SHIFT-POUND} {rvsoff}    {red}+{brown}    {rvson} {CBM-*}{rvsoff}  {rvon}{SHIFT-POUND} {rvof}    {red}+{brn}";
 134 print"{rvson}                                        {rvsoff}";
 140 gosub1000:pokev,25:pokev+1,55:pokev+21,1:pokev+16,0
 150 db(1,1)=1233:db(2,1)=1248:db(3,1)=1263
