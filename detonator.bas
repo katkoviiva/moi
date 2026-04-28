@@ -17,11 +17,11 @@
 108 print"       {rvson}{SHIFT-POUND}   {CBM-*}{rvsoff}          {rvson}{SHIFT-POUND}   {CBM-*}{rvsoff}          {rvson}{SHIFT-POUND}  {rvsoff}";
 110 print"       {rvson} {rvsoff} {red}+{brown} {rvson} {rvsoff}          {rvson} {rvoff} {red}+{brown} {rvson} {rvsoff}          {rvson} {rvsoff} {red}+{brown}";
 112 print"       {rvson}     {rvsoff}          {rvson}     {rvsoff}          {rvson}   {rvsoff}";
-114 print"      {rvson}{SHIFT-POUND}     {CBM-*}{rvsoff}        {rvson}{SHIFT-POUND}     {CBM-*}{rvof}        {rvson}{SHIFT-POUND}   {rvsoff}";
+114 print"      {rvson}{SHIFT-POUND}     {CBM-*}{rvsoff}        {rvson}{SHIFT-POUND}     {CBM-*}{rvsoff}        {rvson}{SHIFT-POUND}   {rvsoff}";
 116 print"      {rvson} {rvsoff}  {red}+{brown}  {rvson} {rvsoff}        {rvson} {rvsoff}  {red}+{brown}  {rvson} {rvsoff}        {rvson} {rvsoff}  {red}+{brown}";
 118 print"      {rvson}       {rvsoff}        {rvson}       {rvsoff}        {rvson}    {rvsoff}";
-120 print"     {rvson}{SHIFT-POUND}       {CBM-*}{rvof}      {rvon}{SHIFT-POUND}       {CBM-*}{rvof}      {rvon}{SHIFT-POUND}    {rvof}";
-122 print"     {rvson} {rvsof}   {red}+{brn}   {rvon} {rvof}      {rvon} {rvof}   {red}+{brown}   {rvon} {rvof}      {rvon} {rvof}   {red}+{brn}";
+120 print"     {rvson}{SHIFT-POUND}       {CBM-*}{rvsoff}      {rvon}{SHIFT-POUND}       {CBM-*}{rvsoff}      {rvon}{SHIFT-POUND}    {rvsoff}";
+122 print"     {rvson} {rvsoff}   {red}+{brown}   {rvson} {rvsoff}      {rvson} {rvsoff}   {red}+{brown}   {rvson} {rvsoff}      {rvson} {rvsoff}   {red}+{brown}";
 124 print"     {rvson}         {rvof}      {rvon}         {rvof}      {rvon}     {rvof}";
 126 print"    {rvson}{SHIFT-POUND}         {CBM-*}{rvof}    {rvon}{SHIFT-POUND}         {CBM-*}{rvsoff}    {rvon}{SHIFT-POUND}     {rvof}";
 128 print"    {rvson} {rvsof}    {red}+{brn}    {rvson} {rvsoff}    {rvson} {rvsoff}    {red}+{brown}    {rvon} {rvof}    {rvon} {rvof}    {red}+{brn}";
